@@ -4,5 +4,5 @@ let jsgitScore = 350;
 let averageScore = (introgitScore+gitgitScore+jsgitScore)/3;
 let studentName = "Maria";
 let studentSurname = "Shelukha";
-console.log('Средний балл '+ averageScore, studentName+' '+studentSurname);
+console.log('Средний балл '+ averageScore, studentName.slice(0,1)+'. '+studentSurname);
 

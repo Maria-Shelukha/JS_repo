@@ -19,3 +19,25 @@
 
 6. Присваивание по модулю %=
 Пример: x %= 11(тоже, что и x = x % 11)
+
+## Описание инкремента и декремент
+
+1. Инкремент(++) - увеличивает переменную на 1
+Пример:
+
+function increaseBalance(x) {
+    х = x++;
+    return x;
+  }
+  
+  console.log(increaseBalance(3000));
+
+2. Декремент(--) - уменьшает переменную на 1
+Пример:
+
+function increaseBalance(y) {
+    y = --y;
+    return y;
+  }
+  
+  console.log(increaseBalance(3000));

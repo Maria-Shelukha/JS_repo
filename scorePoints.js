@@ -19,7 +19,26 @@ const players = [
     "name": "Olga",
     "scorePoints": 2356
     },
-    
+    {
+    "id": 5,
+    "name": "Alex",
+    "scorePoints": 0
+    },
+    {
+    "id": 6,
+    "name": "Maria",
+    "scorePoints": 4000
+    },
+    {
+    "id": 7,
+    "name": "Sergey",
+    "scorePoints": 3500
+    },
+    {
+    "id": 8,
+    "name": "Anastasia",
+    "scorePoints": 2800
+    }
     ];
 
 let scorePointsArr = [];
